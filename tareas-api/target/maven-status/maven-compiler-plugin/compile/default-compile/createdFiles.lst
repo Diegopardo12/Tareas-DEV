@@ -1,0 +1,5 @@
+com\example\tareas\service\TareaService.class
+com\example\tareas\controller\TareaController.class
+com\example\tareas\model\Tarea.class
+com\example\tareas\Application.class
+com\example\tareas\service\TareaServiceImpl.class

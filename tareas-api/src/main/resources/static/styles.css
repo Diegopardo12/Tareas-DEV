@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #ffffff;
+    width: 420px;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+#nueva {
+    flex: 1;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+#nueva:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+button {
+    background: #667eea;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 14px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    background: #f7f7f7;
+    transition: background 0.2s ease;
+}
+
+li:hover {
+    background: #eee;
+}
+
+li.completa span {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.tarea-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.eliminar {
+    background: #e53e3e;
+}
+
+.eliminar:hover {
+    background: #c53030;
+}
+.mensaje {
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 6px;
+    display: none;
+    font-size: 14px;
+}
+
+.mensaje.ok {
+    display: block;
+    background: #e6fffa;
+    color: #065f46;
+}
+
+.mensaje.error {
+    display: block;
+    background: #fee2e2;
+    color: #7f1d1d;
+}
+
+li {
+    animation: aparecer 0.3s ease;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.contador {
+    font-size: 13px;
+    color: #555;
+    text-align: right;
+    margin-bottom: 8px;
+}
