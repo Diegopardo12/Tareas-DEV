@@ -1,0 +1,13 @@
+C:\Users\Usuario\Documents\users-api\src\main\java\com\example\users\controller\UserController.java
+C:\Users\Usuario\Documents\users-api\src\main\java\com\example\users\dto\UserDTO.java
+C:\Users\Usuario\Documents\users-api\src\main\java\com\example\users\dto\UserRequestDTO.java
+C:\Users\Usuario\Documents\users-api\src\main\java\com\example\users\dto\UserResponseDTO.java
+C:\Users\Usuario\Documents\users-api\src\main\java\com\example\users\exception\GlobalExceptionHandler.java
+C:\Users\Usuario\Documents\users-api\src\main\java\com\example\users\exception\ResourceNotFoundException.java
+C:\Users\Usuario\Documents\users-api\src\main\java\com\example\users\factory\UserFactory.java
+C:\Users\Usuario\Documents\users-api\src\main\java\com\example\users\mapper\UserMapper.java
+C:\Users\Usuario\Documents\users-api\src\main\java\com\example\users\model\User.java
+C:\Users\Usuario\Documents\users-api\src\main\java\com\example\users\repository\UserRepository.java
+C:\Users\Usuario\Documents\users-api\src\main\java\com\example\users\service\impl\UserServiceImpl.java
+C:\Users\Usuario\Documents\users-api\src\main\java\com\example\users\service\UserService.java
+C:\Users\Usuario\Documents\users-api\src\main\java\com\example\users\UsersApiApplication.java
