@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.tareas.controller.TareaControllerTest" time="15.511" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.tareas.service.TareaServiceImplTest" time="0.402" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -58,8 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="listarTareas_ok" classname="com.example.tareas.controller.TareaControllerTest" time="0.995"/>
-  <testcase name="completarTarea_ok" classname="com.example.tareas.controller.TareaControllerTest" time="0.321"/>
-  <testcase name="eliminarTarea_ok" classname="com.example.tareas.controller.TareaControllerTest" time="0.035"/>
-  <testcase name="crearTarea_ok" classname="com.example.tareas.controller.TareaControllerTest" time="0.096"/>
+  <testcase name="crearTarea_ok" classname="com.example.tareas.service.TareaServiceImplTest" time="0.355"/>
 </testsuite>

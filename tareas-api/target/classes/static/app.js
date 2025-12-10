@@ -39,7 +39,6 @@ function cargarTareas() {
             data.forEach(function(t) {
                 const item = crearItemHtml(t);
                 lista.append(item);
-                // animación: pequeña aparición
                 item.hide().slideDown(180);
             });
             actualizarContador(data);
@@ -54,7 +53,6 @@ function cargarTareas() {
 
 $(document).ready(function () {
     console.log("✅ main.js cargado");
-    // asegurar que el botón no haga submit si está dentro de form
     $('#agregar').attr('type', 'button');
 
     cargarTareas();
