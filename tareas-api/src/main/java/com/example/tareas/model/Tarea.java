@@ -1,9 +1,22 @@
 package com.example.tareas.model;
 
-import javax.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Column;
+
 
 @Entity
 @Table(name = "tareas")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Tarea {
 
     @Id
@@ -13,33 +26,5 @@ public class Tarea {
     @Column(nullable = false)
     private String descripcion;
 
-    @Column(nullable = false)
-    private boolean completada = false;
-
-    public Tarea() {
-    }
-
-    public Tarea(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public String getDescripcion() {
-        return descripcion;
-    }
-
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
-    public boolean isCompletada() {
-        return completada;
-    }
-
-    public void setCompletada(boolean completada) {
-        this.completada = completada;
-    }
+    private boolean completada;
 }

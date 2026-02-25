@@ -25,7 +25,7 @@ class TareaControllerTest {
     @Test
     void crearTarea_ok() throws Exception {
 
-        Tarea tarea = new Tarea("Tarea de prueba");
+        Tarea tarea = new Tarea(null, "Tarea de prueba", false);
 
         mockMvc.perform(post("/tareas")
                         .contentType(MediaType.APPLICATION_JSON)
